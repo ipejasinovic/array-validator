@@ -1,0 +1,29 @@
+{
+    "name": "ipejasinovic/array-validator",
+    "description": " Simple PHP Array Validator",
+    "keywords": ["array", "validator", "validation"],
+    "type": "library",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Igor Pejasinovic",
+            "email": "ipejasinovic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ipejasinovic\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "psalm --no-cache"
+        ]
+    },
+    "version": "1.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
