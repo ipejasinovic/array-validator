@@ -3,7 +3,7 @@
     "description": " Simple PHP Array Validator",
     "keywords": ["array", "validator", "validation"],
     "type": "library",
-    "license": "Apache 2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Igor Pejasinovic",
